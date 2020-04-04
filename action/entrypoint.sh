@@ -26,6 +26,8 @@ cp $FILE_NAME $HOME/$FILE_PATH
 # Set resulting name as output variable
 echo ::set-output name=filePath::$FILE_PATH
 
+cat $FILE_PATH
+
 # Explain what to do next
 echo "Use the file \"$FILE_PATH\" for manual activation."
 echo "Set the contents of the resulting license file as the \$UNITY_LICENSE variabe."
